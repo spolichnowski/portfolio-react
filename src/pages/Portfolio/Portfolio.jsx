@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import { FaGithub } from "react-icons/fa";
 
-const Portfolio = () => {
+const Portfolio = ({ show }) => {
   return (
-    <div className="portfolio">
+    <div className={show ? "portfolio show" : "hide"}>
       <div className="project pizzachef">
         <div>
           <a href="https://github.com/spolichnowski/pizzachef">
@@ -26,9 +26,9 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-      <div className="project pizza-chef-blog">
+      <div className="project portfolio-page">
         <div>
-          <a href="https://ppolichnowski.pl">
+          <a href="https://github.com/spolichnowski/portfolio-react">
             <FaGithub />
           </a>
         </div>

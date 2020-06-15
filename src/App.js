@@ -84,7 +84,7 @@ function App() {
       </nav>
 
       <div className={"portfolio-container " + (state.portfolio ? "visible" : "notVisible")}>
-        <Portfolio />
+        <Portfolio show={state.portfolio} />
       </div>
     </div>
   );
