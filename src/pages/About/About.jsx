@@ -54,8 +54,8 @@ const About = () => {
               <MdLens />
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -65,8 +65,8 @@ const About = () => {
               <MdLens />
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -76,8 +76,8 @@ const About = () => {
               <MdLens />
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -87,8 +87,8 @@ const About = () => {
               <MdLens />
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -97,9 +97,9 @@ const About = () => {
             <div className="dots">
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -108,9 +108,9 @@ const About = () => {
             <div className="dots">
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -119,9 +119,9 @@ const About = () => {
             <div className="dots">
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -130,9 +130,9 @@ const About = () => {
             <div className="dots">
               <MdLens />
               <MdLens />
-              <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
 
@@ -140,10 +140,10 @@ const About = () => {
             <p>Flask</p>
             <div className="dots">
               <MdLens />
-              <MdLens />
-              <MdLens />
-              <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
             </div>
           </div>
         </div>

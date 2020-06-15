@@ -17,7 +17,8 @@
   opacity: 1;
 }
 
-.hide {
+.hide-portfolio {
+  transition-duration: 0s;
   opacity: 0;
 }
 

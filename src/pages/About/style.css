@@ -71,6 +71,10 @@ hr {
   padding: 5px 0;
 }
 
+.black-dot {
+  color: rgb(27, 27, 27);
+}
+
 @media (max-width: 600px) {
   .about {
     grid-template-columns: none;

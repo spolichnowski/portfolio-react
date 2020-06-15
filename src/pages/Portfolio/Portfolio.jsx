@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Portfolio = ({ show }) => {
   return (
-    <div className={show ? "portfolio show" : "hide"}>
+    <div className={show ? "portfolio show" : "hide-portfolio"}>
       <div className="project pizzachef">
         <div>
           <a href="https://github.com/spolichnowski/pizzachef">
