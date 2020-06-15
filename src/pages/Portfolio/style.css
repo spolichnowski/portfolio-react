@@ -1,0 +1,82 @@
+.portfolio {
+  display: grid;
+  height: 90vh;
+  width: 90%;
+
+  padding: 5vh 5%;
+
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  column-gap: 30px;
+
+  align-items: center;
+  justify-items: center;
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 6px 10px 10px #1d1d1d;
+}
+
+.project:hover div {
+  transition-duration: 0.6s;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.project div a {
+  font-size: 80px;
+  color: white;
+  margin-bottom: 20px;
+  transition-duration: 0.6s;
+}
+
+.project div {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: grid;
+  align-items: flex-end;
+  justify-content: center;
+  transition-duration: 0.6s;
+}
+
+.project:hover div {
+  opacity: 1;
+}
+
+.project:hover div a {
+  transition-delay: 0.6s;
+}
+
+.pizzachef {
+  background-image: url("../../media/pizzachef.png");
+}
+
+.ligno {
+  background-image: url("../../media/ligno.png");
+}
+
+.pizza-chef-blog {
+  background-image: url("../../media/pblog.png");
+}
+
+@media (max-width: 600px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    column-gap: 30px;
+  }
+
+  .project div {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+    transition-duration: 0.6s;
+  }
+}

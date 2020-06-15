@@ -1,0 +1,81 @@
+hr {
+  width: 80%;
+}
+
+.about {
+  display: grid;
+  height: 100%;
+  width: 100%;
+
+  grid-template-columns: 4fr 1fr 1fr;
+
+  background-color: rgba(0, 0, 0);
+}
+
+.about-me {
+  padding: 20px 40px;
+  align-content: center;
+  background-color: #212121;
+}
+
+.about-me h3 {
+  padding-bottom: 20px;
+}
+
+.skills {
+  width: 80%;
+  padding: 20px 10%;
+  background-color: #252422;
+}
+
+.skills .skills-pos {
+  justify-items: center;
+}
+
+.skill {
+  justify-content: center;
+}
+
+.skills h3 {
+  padding-bottom: 20px;
+}
+
+.dots svg {
+  padding: 0 2px;
+}
+
+.lang-edu {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.edu {
+  padding: 0px 10%;
+  padding-top: 20px;
+  background-color: #965e19;
+}
+
+.edu h3 {
+  padding-bottom: 20px;
+}
+
+.lang {
+  padding: 0 10%;
+
+  background-color: #52493f;
+}
+
+.lang ul li {
+  padding: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .about {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    background-color: rgba(0, 0, 0);
+  }
+}

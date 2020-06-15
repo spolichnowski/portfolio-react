@@ -1,0 +1,11 @@
+.item a {
+  font-size: 40px;
+  color: #090c08;
+}
+
+@media (max-width: 1440px) {
+  .grid-nav {
+    height: 100vh;
+    width: 80px;
+  }
+}

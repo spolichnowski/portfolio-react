@@ -1,0 +1,154 @@
+.flexbox {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Plate */
+
+.plate {
+  width: 1400px;
+  height: 90vh;
+  position: absolute;
+  z-index: 999;
+  box-shadow: 5px 10px 10px #1d1d1d;
+}
+
+.open {
+  left: 80px;
+  transition-duration: 0.5s;
+}
+
+.hide {
+  left: -100%;
+  transition-duration: 0.5s;
+}
+
+/* Navigation */
+
+.grid-nav {
+  z-index: 1000;
+  display: grid;
+  height: 90vh;
+  width: 80px;
+  left: 0;
+  grid-template-rows: repeat(4, 1fr);
+
+  background-color: #212121;
+  box-shadow: 4px 8px 6px #1d1d1d;
+}
+
+nav button {
+  width: 80px;
+  font-size: 40px;
+  color: #ccc5b9;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  background: none;
+  transition-duration: 0.8s;
+}
+
+nav button:hover {
+  transition-duration: 0.5s;
+  font-size: 48px;
+}
+
+.focus {
+  color: #965e19;
+  background-color: #181818;
+  transition-duration: 0.8s;
+}
+
+/* Portfolio */
+
+.portfolio-container {
+  width: 100%;
+  height: 100vh;
+  z-index: 900;
+  padding: 50px 20px;
+}
+
+.visible {
+}
+
+.notVisible {
+}
+
+@media (max-width: 1440px) {
+  .plate {
+    width: calc(100% - 80px);
+    height: 100vh;
+  }
+
+  .grid-nav {
+    height: 100vh;
+    width: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    align-items: unset;
+  }
+
+  .flexbox {
+    display: block;
+    overflow: scroll;
+    align-items: unset;
+  }
+
+  /* NAV */
+  .grid-nav {
+    height: 60px;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: none;
+    justify-items: center;
+    box-shadow: 0px 0px 0px #1d1d1d;
+    z-index: 10000;
+  }
+
+  nav button {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  nav button:hover {
+    font-size: 28px;
+  }
+
+  /* PLATE */
+
+  .plate {
+    z-index: 999;
+    width: 100%;
+    height: unset;
+    box-shadow: 0px 0px 0px #1d1d1d;
+  }
+
+  .open {
+    top: 60px;
+    left: unset;
+  }
+
+  .hide {
+    top: -100%;
+  }
+
+  /* Portfolio */
+
+  .portfolio-container {
+    width: 100%;
+    height: unset;
+    z-index: 900;
+    padding: 0;
+    justify-items: center;
+  }
+}
