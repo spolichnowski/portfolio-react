@@ -6,26 +6,30 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-me">
-        <h3>About me</h3>
-        <p>
-          I am a young Web Developer looking for a summer job opportunity. I have approximately 3
-          years of experience in developing and designing websites. In 2018 I started my higher
-          education to become a Bachelor of Computer Games. I have a good experience of working in
-          an agile team. My biggest strength is fast adaptation to new technologies and passion that
-          I put to every single project. In October I am going back to my university to finish the
-          degree, but I will be still happy to work part-time.
-        </p>
-        <br />
-        <hr />
-        <br />
-        <p></p>
+        <div className="align-self-center">
+          <h3>About me</h3>
+          <p>
+          I'm a third-year student of Computer Games. Although games brought me into IT it was always more of a hobby for me. 
+          This is my seventh year of Computer Science education! I started with simple computer assembling at the age of 15 and now I'm in the middle of yet the most important project in my life. 
+          "An Automated Sign Language Interpreter" my final project at University!
+          </p>
+          <p>
+          I spend more or less four years building websites and web applications with a variety of programming languages (Python, PHP, JavaScript). 
+          That includes around 8 months of professional experience (internships and summer jobs).
+          Currently, I'm exploring AI and ML world and that is my focus for the next year. The idea of teaching your program on how to behave is just too cool.
+          </p>
+          <p>
+          I'm open to all the offers from Internships to part-time jobs. 
+          If you are a student with similar interests send me a message maybe we could build something together.
+          </p>
+        </div>
       </div>
 
       <div className="lang-edu">
         <div className="edu">
           <h3>EDUCATION</h3>
-          <p>BSc Computer Games </p>
-          <p>2018 – 2021 </p>
+          <p>BSc Computer Games</p>
+          <p>2018 – Present </p>
           <p>University of Essex,</p>
           <p>Colchester, UK</p>
           <br />
@@ -39,8 +43,9 @@ const About = () => {
         <div className="lang">
           <h3>Languages</h3>
           <ul>
-            <li>Polish</li>
-            <li>English</li>
+            <li>Polish Native</li>
+            <li>English Fluent</li>
+            <li>German Basic</li>
           </ul>
         </div>
       </div>
@@ -48,8 +53,42 @@ const About = () => {
       <div className="skills">
         <h3>Skills</h3>
         <div className="skills-pos">
+
           <div className="skill">
             <p>Python</p>
+            <div className="dots">
+              <MdLens />
+              <MdLens />
+              <MdLens />
+              <MdLens />
+              <MdLens className="black-dot" />
+            </div>
+          </div>
+
+          <div className="skill">
+            <p>GIT</p>
+            <div className="dots">
+              <MdLens />
+              <MdLens />
+              <MdLens />
+              <MdLens />
+              <MdLens className="black-dot" />
+            </div>
+          </div>
+
+          <div className="skill">
+            <p>Flask</p>
+            <div className="dots">
+              <MdLens />
+              <MdLens />
+              <MdLens />
+              <MdLens className="black-dot" />
+              <MdLens className="black-dot" />
+            </div>
+          </div>
+
+          <div className="skill">
+            <p>Bootstrap</p>
             <div className="dots">
               <MdLens />
               <MdLens />
@@ -64,36 +103,14 @@ const About = () => {
             <div className="dots">
               <MdLens />
               <MdLens />
-              <MdLens />
               <MdLens className="black-dot" />
-              <MdLens className="black-dot" />
-            </div>
-          </div>
-
-          <div className="skill">
-            <p>GIT</p>
-            <div className="dots">
-              <MdLens />
-              <MdLens />
-              <MdLens />
               <MdLens className="black-dot" />
               <MdLens className="black-dot" />
             </div>
           </div>
 
           <div className="skill">
-            <p>HTML</p>
-            <div className="dots">
-              <MdLens />
-              <MdLens />
-              <MdLens />
-              <MdLens className="black-dot" />
-              <MdLens className="black-dot" />
-            </div>
-          </div>
-
-          <div className="skill">
-            <p>Recat</p>
+            <p>Keras</p>
             <div className="dots">
               <MdLens />
               <MdLens />
@@ -104,10 +121,10 @@ const About = () => {
           </div>
 
           <div className="skill">
-            <p>Django</p>
+            <p>OpenCV</p>
             <div className="dots">
               <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
               <MdLens className="black-dot" />
               <MdLens className="black-dot" />
               <MdLens className="black-dot" />
@@ -118,7 +135,7 @@ const About = () => {
             <p>PostgreSQL</p>
             <div className="dots">
               <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
               <MdLens className="black-dot" />
               <MdLens className="black-dot" />
               <MdLens className="black-dot" />
@@ -126,10 +143,10 @@ const About = () => {
           </div>
 
           <div className="skill">
-            <p>CSS</p>
+            <p>React</p>
             <div className="dots">
               <MdLens />
-              <MdLens />
+              <MdLens className="black-dot" />
               <MdLens className="black-dot" />
               <MdLens className="black-dot" />
               <MdLens className="black-dot" />
@@ -137,7 +154,7 @@ const About = () => {
           </div>
 
           <div className="skill">
-            <p>Flask</p>
+            <p>Django</p>
             <div className="dots">
               <MdLens />
               <MdLens className="black-dot" />

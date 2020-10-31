@@ -30,34 +30,40 @@
   box-shadow: 6px 10px 10px #1d1d1d;
 }
 
-.project:hover div {
+.project:hover a {
   transition-duration: 0.6s;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(39, 39, 39, 0.6);
 }
 
-.project div a {
+.project a div {
   font-size: 80px;
   color: white;
   margin-bottom: 20px;
   transition-duration: 0.6s;
 }
 
-.project div {
+.project a {
   width: 100%;
   height: 100%;
-  opacity: 0;
   display: grid;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-  transition-duration: 0.6s;
+  position: relative;
 }
 
-.project:hover div {
+.project a div {
+  opacity: 0;
+  position: absolute;
+  left: 2%;
+  top: 75%;
+}
+
+.project a h2 {
   opacity: 1;
 }
 
-.project:hover div a {
-  transition-delay: 0.6s;
+.project:hover a div {
+  opacity: 1;
 }
 
 .pizzachef {
@@ -65,15 +71,19 @@
 }
 
 .ligno {
-  background-image: url("../../media/ligno.png");
-}
-
-.pizza-chef-blog {
-  background-image: url("../../media/pblog.png");
+  background-color: #383838;
 }
 
 .portfolio-page {
-  background-image: url("../../media/portfolio.png");
+  background-color: #383838;
+}
+
+.task-manager {
+  background-color: #383838;
+}
+
+.pigeon-invasion {
+  background-color: #383838;
 }
 
 @media (max-width: 600px) {
@@ -83,12 +93,17 @@
     column-gap: 30px;
   }
 
-  .project div {
+  .project a {
     width: 100%;
-    height: 100%;
-    opacity: 0;
+    height: 300px;
+    opacity: 1;
     display: grid;
-    align-items: flex-end;
     justify-content: center;
+  }
+
+  .project a div {
+    opacity: 1;
+    left: 2%;
+    top: 70%;
   }
 }

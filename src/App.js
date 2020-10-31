@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About/About";
 import Main from "./pages/Main/Main";
 import Portfolio from "./pages/Portfolio/Portfolio";

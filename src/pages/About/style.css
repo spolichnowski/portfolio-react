@@ -13,18 +13,24 @@ hr {
 }
 
 .about-me {
-  padding: 20px 40px;
+  padding: 20px 100px;
   align-content: center;
   background-color: #212121;
+  display: flex;
 }
 
 .about-me h3 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.align-self-center {
+  align-self: center;
+  padding-bottom: 60px;
 }
 
 .skills {
   width: 80%;
-  padding: 20px 10%;
+  padding: 15px 10%;
   background-color: #252422;
 }
 
@@ -37,7 +43,7 @@ hr {
 }
 
 .skills h3 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .dots svg {
@@ -53,12 +59,12 @@ hr {
 
 .edu {
   padding: 0px 10%;
-  padding-top: 20px;
+  padding-top: 15px;
   background-color: #965e19;
 }
 
 .edu h3 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .lang {
