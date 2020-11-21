@@ -110,7 +110,7 @@ const About = () => {
           </div>
 
           <div className="skill">
-            <p>Keras</p>
+            <p>React</p>
             <div className="dots">
               <MdLens />
               <MdLens />
@@ -143,7 +143,7 @@ const About = () => {
           </div>
 
           <div className="skill">
-            <p>React</p>
+            <p>Keras</p>
             <div className="dots">
               <MdLens />
               <MdLens className="black-dot" />

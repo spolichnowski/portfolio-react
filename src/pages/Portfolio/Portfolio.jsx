@@ -37,8 +37,8 @@ const Portfolio = ({ show }) => {
         </a>
       </div>
       <div className="project pigeon-invasion">
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/spolichnowski/pigeon_invasion">
-          <h2>Pigeon Invasion</h2>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/spolichnowski/rock_paper_scissors">
+          <h2>Rock Paper Scissors</h2>
           <div>
             <FaGithub />
           </div>
